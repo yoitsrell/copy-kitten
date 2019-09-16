@@ -14,6 +14,7 @@ We'll be using CSS to get as close as we can to copying each of the three sectio
 
 ### Guidelines
 
+* Each component you'll be copying has at least one image showing you what it's _supposed_ to look like. The header and button also have an image showing you what happens when you hover over it. These are your reference images, so keep them close by. You may want to open them in a browser, though you can also view them in VS Code directly.
 * We put them in order from easiest to hardest in our opinion, but Your Mileage May Vary. Do them in whatever order you please!
 * Don't edit the html, nor the `style.css` file, which is just there to keep the components layed out with reasonable space between them.
 * DO edit the three CSS files, `button.css`, `header.css`, and `table.css`. They're empty, but they are where you'll be doing your work!
