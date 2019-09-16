@@ -5,6 +5,13 @@
 We'll be using CSS to get as close as we can to copying each of the three sections of the page, the button, header, and table.
 
 
+### Setup
+
+* Fork and clone this repo.
+* Run Live Server so you can see what's going on.
+* Code.
+
+
 ### Guidelines
 
 * We put them in order from easiest to hardest in our opinion, but Your Mileage May Vary. Do them in whatever order you please!
@@ -13,6 +20,7 @@ We'll be using CSS to get as close as we can to copying each of the three sectio
 * You may have noticed that the `index.html` file has FOUR separate CSS files. These are all being loaded in, and they're being kept separate so you can work in one and then the other, but all rules from any one CSS file apply to the ENTIRE page. That means you'll have to be a bit careful that they don't overlap; for example, your rules for the button shouldn't apply to the header! Here are some tools for that:
   * Each html section should have different enough html that you can target the `<a>` tags in each differently based on descendent rules, i.e., 'div p' or 'div > p'.
   * HOWEVER, if you wanted to add some IDs or classes to `index.html`, feel free!
+* Don't forget to `add`, `commit`, and `push`! There must be AT LEAST 3 commits for this project, since we're talking about copying three different components. However, the more, the merrier; work on one ASPECT of a component at a time--for example, the spacing between the items in the header--and then make that a commit. Thinking in `git` is a skill, and the more you work at it, the better you'll get.
 
 
 ### Stretch Goals
