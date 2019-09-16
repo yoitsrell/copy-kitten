@@ -1,8 +1,18 @@
 # Copy Kitten
 
-### Quick Summary
+### Introduction
 
-Use html and css to copy the three components, screenshots of which, in their various states, are in their respective sub-directories.
+We'll be using CSS to get as close as we can to copying each of the three sections of the page, the button, header, and table.
+
+
+### Guidelines
+
+* We put them in order from easiest to hardest in our opinion, but Your Mileage May Vary. Do them in whatever order you please!
+* Don't edit the html, nor the `style.css` file, which is just there to keep the components layed out with reasonable space between them.
+* DO edit the three CSS files, `button.css`, `header.css`, and `table.css`. They're empty, but they are where you'll be doing your work!
+* You may have noticed that the `index.html` file has FOUR separate CSS files. These are all being loaded in, and they're being kept separate so you can work in one and then the other, but all rules from any one CSS file apply to the ENTIRE page. That means you'll have to be a bit careful that they don't overlap; for example, your rules for the button shouldn't apply to the header! Here are some tools for that:
+  * Each html section should have different enough html that you can target the `<a>` tags in each differently based on descendent rules, i.e., 'div p' or 'div > p'.
+  * HOWEVER, if you wanted to add some IDs or classes to `index.html`, feel free!
 
 
 ### Stretch Goals
