@@ -1,18 +1,18 @@
 .row{
     margin-bottom:30px;
+    margin-right: 5px;
+    margin-left: 5px;
     color: blue;
+    position
 }
 
 .row-1{
-    
     border-spacing: 1px;
-   
     border-radius: 1px;
     padding: 10px;
 }
 
 .row-2{
-  
     border-spacing: 1px;
     border-radius: 1px;
     padding: 10px;
@@ -21,7 +21,6 @@
 
 .row-3{
     border-radius: 1px;
-   
     padding: 10px;
     border-spacing: 1px;
 
@@ -29,7 +28,7 @@
 #cell-1{
     border-right: black solid 1px;
     border-bottom: black solid 1px;
-    font-size: medium;
+    font-size: larger;
 }
 #cell-2{
     border-left: black solid 1px;
