@@ -1,0 +1,17 @@
+.div {
+    
+    }
+
+#cell-1, #cell-2 {
+    letter-spacing: 10pt 20pt 10pt;
+}
+
+.row-1{
+    border-bottom: black solid; border-radius:  .000001px;
+}
+
+.row-2{
+    border-top: black solid; 
+    border-radius: .001pt;
+    border-bottom: black solid;
+}
