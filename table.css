@@ -1,17 +1,85 @@
-.div {
-    
-    }
-
-#cell-1, #cell-2 {
-    letter-spacing: 10pt 20pt 10pt;
+.row{
+    margin-bottom:30px;
+    color: blue;
 }
 
 .row-1{
-    border-bottom: black solid; border-radius:  .000001px;
+    
+    border-spacing: 1px;
+   
+    border-radius: 1px;
+    padding: 10px;
 }
 
 .row-2{
-    border-top: black solid; 
-    border-radius: .001pt;
-    border-bottom: black solid;
+  
+    border-spacing: 1px;
+    border-radius: 1px;
+    padding: 10px;
+}
+
+
+.row-3{
+    border-radius: 1px;
+   
+    padding: 10px;
+    border-spacing: 1px;
+
+}
+#cell-1{
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    font-size: medium;
+}
+#cell-2{
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    font-size: medium;
+}
+
+#cell-3{
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+    font-size: medium;
+}
+
+#cell-4{
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    font-size: medium;
+}
+
+#cell-5{
+    border-top: black solid 1px;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    font-size: medium;
+}
+
+#cell-6{
+    border-left: black solid 1px;
+    border-top: solid black 1px;
+    border-bottom: black solid 1px;
+    font-size: medium;
+}
+
+#cell-7{
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+    font-size: medium;
+}
+
+#cell-8{
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    font-size: medium;
+}
+
+#cell-9{
+    border-top: black solid 1px;
+    border-left: black solid 1px;
 }
